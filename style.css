@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    max-width: 1100;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+background-color: white;
+padding: 20px; 0;
+border-bottom:1px solid rgb(200, 200,200);
+}
+
+.logo{
+    color: #16507b;
+}
+
+.logo h2{
+    font-weight:bold;
+    font-size: 20px;  
+    font-family: 'Anton', sans-serif;  
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+.menu a{
+    color:#16507b;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right:100px;
+    transition: 04s;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius:6px ;
+}
+
+.menu .btn-menu:hover{
+    background-color: #124265;
+    color: white;
+}
+
+
+section Main
+
+
+section.main{
+    background:0;
+    padding:70px 0;
+    background-position: center;
+    bacjground-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    
+    
+
+    .circle {
+        background-color: #aaa;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        position: relative;
+        position:absolute;
+        left: 4%;
+        }
+      
+      .circle img {
+        
+        bottom: 0;
+        width: 90%;
+        
+      }
+
+    .main__cta{
+    width:100%;
+    margin:60px 0;
+    text-align:center
+    }
+    
+    .main__cta h2{
+    color: #16507b; 
+    font-size: 40px;
+    }
+
+    .main__cta h6{
+        color: #16507b; 
+        font-size:25;
+        }
+    
+    .main__cta p{
+    color: gray; 
+    font-size: 19px;
+    margin:10px 0;
+    }
+
+    .btn-cta{
+        background-color: #007bff;
+        padding: 8px 30px;
+        color: white;
+        border-radius:6px ;
+        font-size: 18px;
+    }
+
+    .diferenciais{
+        display: flex;
+        flex-wrap: wrap ;
+    }
+
+    .diferencial-single{
+        border-radius:10px ;
+        background-color: white;
+        width: 24%;
+        margin: 1%;
+        padding: 50px 20px;
+    }
+
+    .diferencial-single i{
+        color: #124265;
+        margin: 10px 0;
+        font-size: 23px;
+        }
+
+    .diferencial-single p{
+        color: gray;
+        font-size: 14px;
+        line-height: 30px;
+    }
+@media  and (max-width: 768px) {
+    .diferencial-single{
+        width:100%
+        margin: bottom 20%;
+    }
+}
